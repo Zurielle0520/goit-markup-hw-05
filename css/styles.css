@@ -174,6 +174,7 @@ img {
 
 .button {
   background-color: var(--iris);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--white);
   font-family: inherit;
   font-weight: 500;
@@ -185,7 +186,6 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
-  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
