@@ -28,7 +28,7 @@
           >
           <!-- Menu -->
           <ul class="menu list">
-            <li><a class="menu link" href="./index.html">Studio</a></li>
+            <li><a class="menu link show" href="./index.html">Studio</a></li>
             <li>
               <a class="menu link" href="./portfolio.html">Portfolio</a>
             </li>
@@ -417,6 +417,16 @@
         </div>
       </div>
     </footer>
-    <script src="modal.js" type="Javascript"></script>
+    <div data-modal class="div-modal is-hidden">
+      <div class="modal">
+        <button type="button" data-modal-close class="exit">
+          <svg width="8" height="8" class="button-svg-icon">
+            <use href="./images/icons.svg#exit"></use>
+          </svg>
+        </button>
+        <div class="modal-body">Hello World</div>
+      </div>
+    </div>
+    <script src="modal.js" type="application/javascript"></script>
   </body>
 </html>
