@@ -87,13 +87,11 @@ img {
   display: flex;
   gap: 40px;
   padding: 24px 0 24px;
-  position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.div-header ul li a {
+/* .div-header ul li a {
   color: var(--ocean);
-}
+} */
 
 .div-header ul li a::after {
   content: '';
@@ -105,10 +103,10 @@ img {
   border-radius: 2px;
 }
 
-.list-1 a,
+/* .list-1 a,
 .list-2 a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .link {
   text-decoration: none;
@@ -125,6 +123,8 @@ img {
 .address:hover,
 .address:focus {
   color: var(--ocean);
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*ADDRESS*/
@@ -174,7 +174,7 @@ img {
 
 .button {
   background-color: var(--iris);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--white);
   font-family: inherit;
   font-weight: 500;
@@ -340,6 +340,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-icon {
@@ -383,6 +384,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--light-slate);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -453,6 +456,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socmed-footer-link:hover,
