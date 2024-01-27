@@ -679,7 +679,7 @@ img {
 
 /* Modal */
 
-.div-container {
+.div-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -730,20 +730,14 @@ img {
 .modal-exit-button:hover {
   background-color: var(--ocean);
   border: none;
+  fill: #ffffff;
 }
 .modal-exit-button:focus {
   background-color: var(--ocean);
   border: none;
+  fill: #ffffff;
 }
 
 .modal-exit-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 8px;
-}
-
-.modal-exit-button:hover {
-  fill: #ffffff;
-}
-.modal-exit-button:focus {
-  fill: #ffffff;
 }
